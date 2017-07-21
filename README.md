@@ -44,6 +44,9 @@ Back in the container session
 
 Connect to your teamspeak server! If you're in Azure you will need to open up 9987/udp in your network security group.
 
+Save the image for redeployment
+
+    docker commit test-container manual-ts3
 
 #Building a container with Dockerfile
 Create and save a file called Dockerfile in C:\DockerTS3 folder
